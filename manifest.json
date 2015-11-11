@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "V2EX Sort",
+  "description": "Sort articles by their num of comments, V2EX ONLY",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "v2exLogo.png",
+    "default_popup": "popup.html"
+    },
+  // "background":{
+  //     "scripts":["background.js"],
+  //     "persistent": false
+  //   },
+
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
